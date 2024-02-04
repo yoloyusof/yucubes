@@ -1,15 +1,6 @@
 # yucubes
+🔳 mutliplayer cube game [inspired by adocubes] 
 
-To install dependencies:
+> [!WARNING]
+> Yucubes is still in a work of progress
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run server/main.ts
-```
-
-This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

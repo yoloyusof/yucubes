@@ -1,0 +1,23 @@
+{
+  "name": "yucubes",
+  "module": "server/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"bun --watch server/main.ts\" \"vite\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.2",
+    "concurrently": "^8.2.2",
+    "elysia": "^0.8.15",
+    "sass": "^1.70.0",
+    "svelte": "^4.2.9",
+    "vite": "^5.0.12"
+  }
+}
